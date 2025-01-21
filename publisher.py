@@ -2,7 +2,7 @@ import pika
 import json
 
 class RabbitMQPublisher:
-    def __init__(self, host, port, username, password):
+    def __init__(self) -> None:
         self.__host = "localhost"
         self.__port = 5672
         self.__username = "guest"
